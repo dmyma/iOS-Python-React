@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
-# from foodtaskerapp.forms import UserForm, RestaurantForm
+from foodtaskerapp.forms import UserForm, RestaurantForm
 # from django.contrib.auth import authenticate, login
 # from django.contrib.auth.model import User
 
@@ -13,9 +13,8 @@ def restaurant_home(request):
     return render(request, 'restaurant/home.html', {})
 
 def restaurant_sign_up(request):
-    return render(request, 'restaurant/sign-up.html', {})
-    # user_form = UserForm()
-    # restaurant_form = RestaurantForm()
+    user_form = UserForm()
+    restaurant_form = RestaurantForm()
     #
     # if request.method == "POST":
     #     user_form = USerForm(request.POST)
@@ -33,7 +32,7 @@ def restaurant_sign_up(request):
     #
     #         return redirect(restaurant_home)
     #
-    # return render(request, 'restaurant/sign_up.html', {
-    #     "user_form": user_form,
-    #     "restaurant_form": restaurant_form
-    # })
+    return render(request, 'restaurant/sign_up.html', {
+        "user_form": user_form,
+        "restaurant_form": restaurant_form
+    })
