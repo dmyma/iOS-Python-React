@@ -8,3 +8,5 @@
 
 -  1. python manage.py startapp foodtaskerapp
    2. 'foodtaskerapp',
+-  1. python manage.py migrate
+   2. python manage.py createsuperuser
