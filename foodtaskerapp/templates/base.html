@@ -13,7 +13,16 @@
   <script src="{% static 'js/bootstrap.min.js' %}"></script>
 </head>
 <body>
-  {% block sidebar %}{% endblock %}
-  {% block page %}{% endblock %}
+
+  <div id="container-fluid">
+    <div id="row">
+      <div id="col-lg-12 col-md-2 col-sm-2 sidebar">
+        {% block sidebar %}{% endblock %}
+      </div>
+      <div id="col-lg-10 col-md-10 col-sm-10 content">
+        {% block page %}{% endblock %}
+      </div>
+    </div>
+  </div>
 </body>
 </html>
