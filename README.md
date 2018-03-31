@@ -4,6 +4,7 @@ https://calm-reaches-89694.herokuapp.com/restaurant/sign-in/?next=/restaurant/
 Bug:
 max_length
 pip if change the folder
+postman 19
 -  1. python3 -m venv myvirtualenv/foodtasker
    2. source myvirtualenv//foodtasker//bin/activate
    3. pip install django==1.10
