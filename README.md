@@ -2,6 +2,14 @@
 
 https://calm-reaches-89694.herokuapp.com/restaurant/sign-in/?next=/restaurant/
 
+after download
+
+1. python3 -m venv myvirtualenv/foodtasker
+2. source myvirtualenv/foodtasker/bin/activate
+
+3. pip install -r requirements.txt
+4. python manage.py runserver
+
 1.  python3 -m venv myvirtualenv/foodtasker
 2.  source myvirtualenv//foodtasker//bin/activate
 3.  pip install django==1.10
@@ -19,7 +27,7 @@ iOS:
 load on mapDriverView
 
 BackEnd:
-pip install -r requirements.txt
+
 ImportError: No module named 'stripe'
 heroku
 React update + bootstrap3->4
