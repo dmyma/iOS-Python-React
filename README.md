@@ -1,8 +1,9 @@
 # iOS-Python-React
 
 site - https://calm-reaches-89694.herokuapp.com/restaurant/sign-in/?next=/restaurant/
-iOS app - https://github.com/dmyma/iOS-Python-React
-<<<<<<< HEAD
+iOS app - https://github.com/dmyma/iOS-Python-React-app
+
+
 after download
 
 1. python3 -m venv myvirtualenv/foodtasker
@@ -56,4 +57,4 @@ bootstrap3
 2. 'foodtaskerapp',
 -  1. python manage.py migrate
 2. python manage.py createsuperuser
->>>>>>> a3dc9d739296ba352f86a9e6d4e594ec0910f438
+
