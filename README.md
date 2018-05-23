@@ -1,7 +1,7 @@
 # iOS-Python-React
 
-site - https://calm-reaches-89694.herokuapp.com/restaurant/sign-in/?next=/restaurant/
-iOS app - https://github.com/dmyma/iOS-Python-React-app
+- site - https://calm-reaches-89694.herokuapp.com/restaurant/sign-in/?next=/restaurant/
+- iOS app - https://github.com/dmyma/iOS-Python-React-app
 
 
 after download
