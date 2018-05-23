@@ -1,7 +1,7 @@
 # iOS-Python-React
 
-https://calm-reaches-89694.herokuapp.com/restaurant/sign-in/?next=/restaurant/
-
+site - https://calm-reaches-89694.herokuapp.com/restaurant/sign-in/?next=/restaurant/
+iOS app - https://github.com/dmyma/iOS-Python-React
 <<<<<<< HEAD
 after download
 
@@ -57,4 +57,3 @@ bootstrap3
 -  1. python manage.py migrate
 2. python manage.py createsuperuser
 >>>>>>> a3dc9d739296ba352f86a9e6d4e594ec0910f438
-
