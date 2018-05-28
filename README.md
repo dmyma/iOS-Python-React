@@ -11,6 +11,9 @@ after download
 
 3. pip install -r requirements.txt
 4. python manage.py runserver
+5. python manage.py migrate
+
+=================
 
 1.  python3 -m venv myvirtualenv/foodtasker
 2.  source myvirtualenv//foodtasker//bin/activate
